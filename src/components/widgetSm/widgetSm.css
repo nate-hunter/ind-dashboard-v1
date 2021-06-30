@@ -1,0 +1,62 @@
+.widgetSm {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px slateblue;
+  box-shadow: 0px 0px 15px -10px slateblue;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.widgetSmTitle {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.widgetSmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widgetSmListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.widetSmSeason {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetSmSeasonName {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  /* color: darkslateblue; */
+}
+
+.widgetSmSeasonStudio {
+  font-weight: 300;
+  color: mediumslateblue;
+}
+
+.widgetSmButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: mediumslateblue;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.widgetSmIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+
+
+
