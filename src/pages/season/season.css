@@ -1,0 +1,177 @@
+.season {
+  flex: 4;
+  padding: 20px;
+}
+
+.seasonTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seasonAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.seasonContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.seasonShow {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px slateblue;
+  box-shadow: 0px 0px 15px -10px slateblue;
+}
+
+.seasonUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px lightseagreen;
+  box-shadow: 0px 0px 15px -10px lightseagreen;
+  margin-left: 20px;
+}
+
+.seasonShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.seasonShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.seasonShowTopStatusContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px deepskyblue;
+  box-shadow: 0px 0px 15px -10px deepskyblue;
+}
+
+.seasonShowTopStatusTitle {
+  font-weight: 700;
+}
+
+.seasonShowTopStatus {
+  color: deepskyblue;
+}
+
+.seasonShowName {
+  color: darkslateblue;
+  font-weight: 600;
+}
+
+.seasonShowStudio {
+  font-weight: 300;
+}
+
+.seasonShowBottom {
+  margin-top: 20px;
+}
+
+.seasonShowBottomInfoTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: mediumslateblue;
+}
+
+.seasonShowInfoContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.seasonShowInfoLabel {
+  font-weight: 600;
+}
+
+.seasonShowInfo {
+  margin-left: 10px;
+  font-weight: 300;
+  color: slateblue;
+  font-size: 17px;
+}
+
+/* Update Season Section  */
+.seasonUpdateTitle {
+ font-size: 24px;
+ font-weight: 600;
+}
+
+.seasonUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.seasonUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.seasonUpdateItem > label {
+  margin-bottom: 5px;
+  font-weight: 800px;
+  font-size: 14px;
+}
+
+.seasonUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 2px solid lightseagreen;
+  color: lightseagreen;
+}
+
+.seasonUpdateColorBlob {
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seasonUpdateColorBlobLines {
+  width: 80%;
+  height: 1%;
+  background-color: slateblue;
+}
+
+.seasonUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seasonUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color:rgb(27, 143, 137);
+  background-color: slateblue;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+}
+
+
+

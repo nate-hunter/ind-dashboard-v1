@@ -1,3 +1,23 @@
 .seasonList {
   flex: 4;
 }
+
+.userListSeason {
+  font-weight: 600;
+  color: slateblue;
+}
+
+.seasonListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.seasonListDelete {
+  color: crimson;
+  cursor: pointer;
+}
