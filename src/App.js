@@ -10,6 +10,7 @@ import './app.css'
 import Home from "./pages/home/Home";
 import SeasonList from "./pages/seasonList/SeasonList";
 import Season from "./pages/season/Season";
+import NewSeason from "./pages/newSeason/NewSeason";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/"><Home /></Route>
           <Route path="/seasons"><SeasonList /></Route>
           <Route path="/season/:seasonId"><Season /></Route>
+          <Route path="/newSeason"><NewSeason /></Route>
         </Switch>
       </div>
     </Router>

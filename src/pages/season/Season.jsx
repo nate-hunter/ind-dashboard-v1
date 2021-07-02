@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './season.css';
 
@@ -7,7 +8,9 @@ const Season = () => {
     <div className="season">
       <div className="seasonTitleContainer">
         <h1 className="seasonTitle">NDA TV Season Page</h1>
-        <button className="seasonAddButton">Add Season</button>
+        <Link to="/newSeason">
+          <button className="seasonAddButton">Add Season</button>
+        </Link>
       </div>
       <div className="seasonContainer">
         <div className="seasonShow">

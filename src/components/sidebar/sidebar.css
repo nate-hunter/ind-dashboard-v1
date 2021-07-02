@@ -40,7 +40,11 @@
   background-color: mediumslateblue;
 }
 
-sidebarIcon {
+.sidebarIcon {
   margin-right: 5px;
   font-size: 20px !important;
+}
+
+.sidebarListText {
+  margin-left: 5px;
 }

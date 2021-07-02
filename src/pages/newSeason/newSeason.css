@@ -1,0 +1,60 @@
+.newSeason {
+  flex: 6;
+}
+
+.newSeasonForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newSeasonItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newSeasonItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: slateblue;
+}
+
+.newSeasonItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 0.5px solid mediumslateblue;
+  border-radius: 5px;
+}
+
+.newSeasonStatus > input {
+  margin-top: 15px;
+}
+
+.newSeasonStatus > label {
+  margin: 10px;
+  font-size: 18px;
+  color: mediumslateblue;
+}
+
+.newSeasonSelect {
+  height: 40px;
+  border: 0.5px solid mediumslateblue;
+  border-radius: 5px;
+}
+
+.newSeasonButton {
+  width: 200px;
+  border: none;
+  background-color: slateblue;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+
+
